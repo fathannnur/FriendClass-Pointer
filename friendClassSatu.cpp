@@ -23,16 +23,17 @@ public:
     void displayAll(orang &a);
 };
 
-void siswa::displayAll(orang &a);
+void siswa::displayAll(orang &a)
 {
-    cout << id << endl << a,nama;
+    cout << id << endl << a.nama;
 }
-void orang::setNama(string pNama)2
+void orang::setNama(string pNama)
 {
     nama = pNama;
 }
 void siswa::setId(int pId)
 {
-    id t= pId;
+    id = pId;
 }
 int main()
+t1 01r
