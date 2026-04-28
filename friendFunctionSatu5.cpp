@@ -11,8 +11,8 @@ public:
 
 void setNama(mahasiswa &a, string b)
 {
-    at8.nama = b;
-    cput << a.nama;
+    a.nama = b;
+    cout << a.nama;
 }
 
 int main()
